@@ -53,6 +53,9 @@ importers:
       '@dcloudio/uni-quickapp-webview':
         specifier: 3.0.0-4020920240930001
         version: 3.0.0-4020920240930001(postcss@8.4.47)(rollup@4.22.5)(vue@3.5.11(typescript@5.6.3))(webpack-sources@3.2.3)
+      '@iconify-json/solar':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@vue/shared':
         specifier: 3.5.11
         version: 3.5.11
@@ -1413,6 +1416,9 @@ packages:
 
   '@iconify-json/mdi@1.2.0':
     resolution: {integrity: sha512-E9/3l5Syg3wfuarorFodhn4s8YorxhH3U3U20LaNBNiqw1kFNIDWhF6HymuzAD35k7RH0OBasJ+ZUyFtVVV6eg==}
+
+  '@iconify-json/solar@1.2.1':
+    resolution: {integrity: sha512-LA3WZ7HOi5O/sEc2M+BcQNJYNFDnUKP+ZldmNf8kwndnCuFMo+fukt6tSu4BqYRsRgp/Ku4xnys1JGBDi+QtCQ==}
 
   '@iconify-json/svg-spinners@1.2.1':
     resolution: {integrity: sha512-QZNA4YzFD2zqdC6nIBJM6WlAGakUCjvMt92Ks1R4XFxkd76Ps3rdiauYWESDRZvNYURAByp2b9cwZarFula65g==}
@@ -8240,6 +8246,10 @@ snapshots:
       - stylelint
 
   '@iconify-json/mdi@1.2.0':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/solar@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
