@@ -3,6 +3,11 @@
     {
       "path": "pages/index/index",
       "style": {
+        "navigationBarTitleText": "让我们说中文"
+      }
+    }, {
+      "path": "pages/word/word",
+      "style": {
         "navigationBarTitleText": "weapp-tailwindcss",
         "navigationStyle": "custom"
       }
