@@ -12,6 +12,12 @@ const wordDetail = computed(() => {
 onLoad((options) => {
   wordIndex.value = options!.index as number
 })
+
+function hdlClickSentence(index: number) {
+  uni.navigateTo({
+    url: `/pages/word/sentence/sentence?wordIndex=${wordIndex.value}&index=${index}`,
+  })
+}
 </script>
 
 <template>
@@ -38,11 +44,12 @@ onLoad((options) => {
       </view>
     </view>
     <DYZItem
-      v-for="item in wordDetail.syllables"
-      :key="item.spell"
+      v-for="(item, index) in wordDetail.syllables"
+      :key="index"
       :spell="item.spell"
       :en-explain="item.enExplain"
       :zh-explain="item.zhExplain"
+      @tap="hdlClickSentence(index)"
     />
   </view>
 </template>
