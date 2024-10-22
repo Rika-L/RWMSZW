@@ -18,6 +18,12 @@ function hdlClickSentence(index: number) {
     url: `/pages/word/sentence/sentence?wordIndex=${wordIndex.value}&index=${index}`,
   })
 }
+
+function hdlClickWrite() {
+  uni.navigateTo({
+    url: `/pages/word/write/write?stroke=${wordDetail.value.strokes}&wordIndex=${wordIndex.value}`,
+  })
+}
 </script>
 
 <template>
@@ -36,7 +42,7 @@ function hdlClickSentence(index: number) {
         <view>Structure:{{ wordDetail.structure }}</view>
       </view>
     </view>
-    <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
+    <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md" @tap="hdlClickWrite">
       <image src="/src/static/img/xin-stroke.png" mode="widthFix" />
       <view class="flex items-center justify-end text-gray-800">
         <text>Practice</text>
