@@ -1,5 +1,8 @@
-// @ts-nocheck
 <script lang="ts" setup>
+// @ts-nocheck
+
+import TopBar from '@/components/TopBar.vue'
+
 const ctx = ref<UniNamespace.CanvasContext | null>()
 
 function initCanvas() {
@@ -49,9 +52,23 @@ const strokeTotal = ref(0)
 const wordIndex = ref(0)
 const stroke = ref(1)
 
+// 下一笔
 function next() {
   if (stroke.value < strokeTotal.value) {
     stroke.value += 1
+  }
+  else {
+    stroke.value = 1
+  }
+}
+
+// 上一笔
+function prev() {
+  if (stroke.value > 1) {
+    stroke.value -= 1
+  }
+  else {
+    stroke.value = strokeTotal.value
   }
 }
 
@@ -70,41 +87,109 @@ function clear() {
 }
 
 onLoad((options) => {
-  wordIndex.value = options!.wordIndex as number
-  strokeTotal.value = options!.stroke as number
+  wordIndex.value = Number(options!.wordIndex)
+  strokeTotal.value = Number(options!.stroke)
 })
 
 function auto() {
-  setInterval(() => {
-    next()
+  const interval = setInterval(() => {
+    console.log(typeof strokeTotal.value)
+    console.log(typeof stroke.value)
+
+    if (stroke.value !== strokeTotal.value) {
+      next()
+    }
+    else {
+      clearInterval(interval)
+    }
   }, 1000)
+}
+
+// 是否手写
+const isWrite = ref(false)
+
+watchEffect(() => {
+  if (isWrite.value) {
+    initCanvas()
+  }
+})
+
+function startWrite() {
+  isWrite.value = !isWrite.value
+  stroke.value = 1
+}
+
+function resetWrite() {
+  clear()
+  stroke.value = 1
+}
+
+function exit() {
+  isWrite.value = !isWrite.value
+  stroke.value = 1
 }
 </script>
 
 <template>
-  {{ strokeTotal }}
-  <view class="mt-[30px] flex w-full justify-center">
-    <view class="relative size-[400rpx]">
-      <image :src="`/static/img/${stroke}.png`" class="absolute left-0 top-0 w-[400rpx]" mode="widthFix" />
-      <canvas
-        id="canvas"
-        canvas-id="canvas"
-        class="absolute left-0 top-0 h-full w-[400rpx]"
-        disable-scroll
-        @touchstart="touchstart"
-        @touchmove="touchmove"
-        @touchend="touchend"
-      />
+  <view class="fixed left-0 top-0 -z-10 size-full backdrop-blur" />
+  <image src="/src/static/img/bg2.jpg" class="fixed left-0 top-0 -z-20 size-full" />
+  <TopBar />
+  <view class="mt-[30px] px-4">
+    <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
+      <view class="flex w-full justify-center">
+        <view class="relative size-[400rpx]">
+          <image :src="`/static/img/${stroke}.png`" class="absolute left-0 top-0 w-[400rpx] rounded-xl" mode="widthFix" />
+          <canvas
+            v-if="isWrite"
+            id="canvas"
+            canvas-id="canvas"
+            class="absolute left-0 top-0 h-full w-[400rpx]"
+            disable-scroll
+            @touchstart="touchstart"
+            @touchmove="touchmove"
+            @touchend="touchend"
+          />
+        </view>
+      </view>
+    </view>
+    <view
+      class="mb-1 mt-5 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+      @tap="auto"
+    >
+      Auto Show
+    </view>
+    <view
+      class="my-1 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+      @tap="prev"
+    >
+      Prev
+    </view>
+    <view
+      class="mb-5 mt-1 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+      @tap="next"
+    >
+      Next
+    </view>
+    <view
+      v-if="!isWrite"
+      class="mb-1 mt-5 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+      @tap="startWrite"
+    >
+      Write Practice
+    </view>
+    <view v-else>
+      <view
+        class="mb-1 mt-5 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+        @tap="resetWrite"
+      >
+        Reset
+      </view>
+      <view
+        class="my-1 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
+        @tap="exit"
+      >
+        Exit
+      </view>
     </view>
   </view>
-  <button @tap="auto">
-    auto
-  </button>
-  <button @tap="clear">
-    clear
-  </button>
-  <view>共{{ stroke }} 笔</view>
-  <button @tap="next">
-    下一笔
-  </button>
 </template>
