@@ -17,6 +17,12 @@
       "style": {
         "navigationStyle": "custom"
       }
+    },
+    {
+      "path": "pages/word/write/write",
+      "style": {
+        "navigationBarTitleText": "手写练习"
+      }
     }
   ],
   "globalStyle": {
