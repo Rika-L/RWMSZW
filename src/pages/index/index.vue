@@ -27,10 +27,10 @@ function hdlTap(index: number) {
     <view
       v-for="(item, index) in data"
       :key="index"
-      class=" relative left-[30rpx] mt-[30rpx] h-[150rpx] w-[560rpx] rounded-[30rpx] border-none bg-inherit"
+      class=" relative left-[20rpx] mt-[30rpx] h-[150rpx] w-[560rpx] rounded-[30rpx] border-none bg-inherit"
       @tap="hdlTap(index)"
     >
-      <div class="absolute h-full w-[530rpx] rounded-[30rpx] bg-slate-700 opacity-45" />
+      <div class="absolute h-full w-[550rpx] rounded-[30rpx] bg-slate-700 opacity-45" />
       <div class=" absolute left-[20rpx] top-[15rpx] size-[120rpx] rounded-[30rpx] bg-gray-200 opacity-75">
         <text class=" absolute  left-[18rpx] top-[-2rpx] text-[90rpx]" selectable="false" space="false" decode="false">
           {{ item.chinese }}
