@@ -21,7 +21,7 @@ function hdlClickSentence(index: number) {
 
 function hdlClickWrite() {
   uni.navigateTo({
-    url: `/pages/word/write/write`,
+    url: `/pages/word/write/write?stroke=${wordDetail.value.strokes}&wordIndex=${wordIndex.value}`,
   })
 }
 </script>

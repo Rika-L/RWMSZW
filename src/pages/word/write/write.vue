@@ -1,13 +1,5 @@
+// @ts-nocheck
 <script lang="ts" setup>
-import data from '@/main.json'
-
-function hdlTap(index: number) {
-  uni.navigateTo({
-    url: `/pages/word/word?index=${index}`,
-
-  })
-}
-
 const ctx = ref<UniNamespace.CanvasContext | null>()
 
 function initCanvas() {
@@ -53,39 +45,66 @@ function touchmove(e: TouchEvent) {
   }
 }
 
+const strokeTotal = ref(0)
+const wordIndex = ref(0)
+const stroke = ref(1)
+
+function next() {
+  if (stroke.value < strokeTotal.value) {
+    stroke.value += 1
+  }
+}
+
 function touchend() {
   points.value = []
+  next()
 }
 
 function clear() {
-  ctx.value!.clearRect(0, 0, 750, 750)
+  ctx.value!.clearRect(0, 0, 400, 400)
   ctx.value!.draw()
+  ctx.value!.lineWidth = 4
+  ctx.value!.lineCap = 'round'
+  ctx.value!.lineJoin = 'round'
+  ctx.value!.strokeStyle = 'blue'
+}
+
+onLoad((options) => {
+  wordIndex.value = options!.wordIndex as number
+  strokeTotal.value = options!.stroke as number
+})
+
+function auto() {
+  setInterval(() => {
+    next()
+  }, 1000)
 }
 </script>
 
 <template>
-  <view class="relative min-h-[400rpx] w-[200rpx]">
-    <image src="/src/static/img/1.png" class="absolute left-0 top-0 w-[200rpx]" mode="widthFix" />
-    <canvas
-      id="canvas"
-      canvas-id="canvas"
-      class="absolute left-0 top-0 h-full w-[200rpx]"
-      disable-scroll
-      @touchstart="touchstart"
-      @touchmove="touchmove"
-      @touchend="touchend"
-    />
+  {{ strokeTotal }}
+  <view class="mt-[30px] flex w-full justify-center">
+    <view class="relative size-[400rpx]">
+      <image :src="`/static/img/${stroke}.png`" class="absolute left-0 top-0 w-[400rpx]" mode="widthFix" />
+      <canvas
+        id="canvas"
+        canvas-id="canvas"
+        class="absolute left-0 top-0 h-full w-[400rpx]"
+        disable-scroll
+        @touchstart="touchstart"
+        @touchmove="touchmove"
+        @touchend="touchend"
+      />
+    </view>
   </view>
-
-  {{ points }}
-  <button @tap="clear">
-    reset
+  <button @tap="auto">
+    auto
   </button>
-  <button
-    v-for="(item, index) in data"
-    :key="index"
-    @tap="hdlTap(index)"
-  >
-    {{ item.chinese }}
+  <button @tap="clear">
+    clear
+  </button>
+  <view>共{{ stroke }} 笔</view>
+  <button @tap="next">
+    下一笔
   </button>
 </template>
