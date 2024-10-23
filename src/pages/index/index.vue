@@ -22,7 +22,6 @@ watchEffect(() => {
 function hdlTap(index: number) {
   uni.navigateTo({
     url: `/pages/word/word?index=${index}`,
-
   })
 }
 </script>
@@ -48,7 +47,7 @@ function hdlTap(index: number) {
       class=" relative left-[20rpx] mt-[30rpx] h-[150rpx] w-[580rpx] rounded-[30rpx] border-none bg-inherit"
       @tap="hdlTap(index)"
     >
-      <div class="absolute h-full w-[550rpx] rounded-[30rpx] bg-slate-700 opacity-45" />
+      <div class="absolute h-full w-[550rpx] rounded-[30rpx] bg-white/50" />
       <div class=" absolute left-[20rpx] top-[15rpx] size-[120rpx] rounded-[30rpx] bg-gray-200 opacity-75">
         <text class=" flex items-center justify-center text-[90rpx]" selectable="false" space="false" decode="false">
           {{ item.chinese }}
