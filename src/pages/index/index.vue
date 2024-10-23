@@ -25,11 +25,11 @@ function hdlTap(index: number) {
   <view class="fixed left-0 top-0 -z-10 size-full backdrop-blur" />
   <image src="/src/static/img/bg2.jpg" class="fixed left-0 top-0 -z-20 size-full" />
   <div class=" relative ml-[125rpx] mt-[100rpx] flex">
-    <input v-model="keyword" type="text" class=" relative top-0 h-[70rpx] w-[430rpx] rounded-md bg-slate-200 pl-2 text-[26rpx] font-bold text-black opacity-75 shadow-inner shadow-[#888888]" placeholder="请输入想要搜索的文字" bindinput="inputChange" @keyup.enter="filterData">
+    <input v-model="keyword" type="text" class=" relative top-0 h-[70rpx] w-[430rpx] rounded-md bg-slate-200 pl-2 text-[26rpx] font-bold text-black opacity-75 shadow-inner shadow-[#888888]" placeholder="Please enter the Chinese" bindinput="inputChange" @keyup.enter="filterData">
     <view class=" absolute left-[457rpx] top-0 h-[70rpx] w-[91rpx] rounded-lg bg-inherit" @tap="filterData">
       <div class=" size-full rounded-lg bg-slate-600 opacity-15" />
       <text class=" absolute left-[10px] top-[19rpx] text-[26rpx] font-semibold">
-        搜索
+        Search
       </text>
     </view>
   </div>
