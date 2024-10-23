@@ -4,6 +4,7 @@ interface Props {
   enWord: string // 英文
   zhSentence: string // 中文造句
   enExplanation: string // 英文解释
+  culture: string | undefined // 相关文化
 }
 
 defineProps<Props>()
@@ -22,8 +23,11 @@ defineProps<Props>()
     <view class="text-base text-gray-700">
       {{ zhSentence }}
     </view>
-    <view class="text-sm text-gray-500">
+    <view class="text-sm text-gray-900">
       {{ enExplanation }}
+    </view>
+    <view class="text-sm text-gray-500">
+      Related Cultures: {{ culture ? culture : 'None' }}
     </view>
   </view>
 </template>

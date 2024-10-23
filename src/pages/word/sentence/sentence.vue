@@ -28,6 +28,7 @@ onLoad((options) => {
       :en-word="item.enWord"
       :zh-sentence="item.zhSentence"
       :en-explanation="item.enExplanation"
+      :culture="item.culture"
     />
   </view>
 </template>

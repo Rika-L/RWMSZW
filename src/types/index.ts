@@ -3,6 +3,7 @@ interface WordItemType {
   enWord: string // 英文
   zhSentence: string // 中文造句
   enExplanation: string // 英文解释
+  culture: string // 文化
 }
 
 interface SyllableItemType {
