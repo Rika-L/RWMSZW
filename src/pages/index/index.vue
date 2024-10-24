@@ -3,7 +3,8 @@ import data from '@/main.json'
 
 const keyword = ref('') // 定义keyword变量
 const filteredData = ref(data) // 存储过滤后的数据
-
+let show = Boolean(false) // 定义show变量
+// 输入框按钮搜索触发
 function filterData() {
   if (!keyword.value) {
     filteredData.value = data // 如果keyword为空，重置数据
@@ -12,13 +13,23 @@ function filterData() {
     filteredData.value = data.filter(item => item.chinese.includes(keyword.value)) // 过滤数据
   }
 }
-
+// 监听keyword变化
 watchEffect(() => {
   if (!keyword.value) {
     filteredData.value = data
+    show = false
+  }
+  else {
+    show = true
   }
 })
+// 删除所有写的内容
+function deleteData() {
+  keyword.value = ''
+  show = false
+}
 
+// 跳转的界面函数
 function hdlTap(index: number) {
   uni.navigateTo({
     url: `/pages/word/word?index=${index}`,
@@ -36,6 +47,9 @@ function hdlTap(index: number) {
       <text class=" absolute left-[10px] top-[19rpx] text-[26rpx] font-semibold">
         Search
       </text>
+    </view>
+    <view v-show="show" class=" absolute left-[392rpx] top-[12rpx] flex size-[50rpx] opacity-40" hover-class="none" hover-stop-propagation="false" @tap="deleteData">
+      <img src="E:\实验室项目1\RWMSZW\src\static\icon\delete.png" alt="" class="size-[50rpx]">
     </view>
   </div>
   <scroll-view
