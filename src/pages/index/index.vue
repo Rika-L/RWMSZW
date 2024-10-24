@@ -30,9 +30,9 @@ function deleteData() {
 }
 
 // 跳转的界面函数
-function hdlTap(index: number) {
+function hdlTap(id: number) {
   uni.navigateTo({
-    url: `/pages/word/word?index=${index}`,
+    url: `/pages/word/word?index=${id - 1}`,
   })
 }
 </script>
@@ -56,10 +56,10 @@ function hdlTap(index: number) {
     class=" absolute ml-[90rpx] mt-[50rpx] flex h-[900rpx] w-full flex-wrap" scroll-x="false" scroll-y="true"
   >
     <view
-      v-for="(item, index) in filteredData"
-      :key="index"
+      v-for="item in filteredData"
+      :key="item.id"
       class=" relative left-[20rpx] mt-[30rpx] h-[150rpx] w-[580rpx] rounded-[30rpx] border-none bg-inherit"
-      @tap="hdlTap(index)"
+      @tap="hdlTap(item.id)"
     >
       <div class="absolute h-full w-[550rpx] rounded-[30rpx] bg-slate-700/50" />
       <div class=" absolute left-[20rpx] top-[15rpx] size-[120rpx] rounded-[30rpx] bg-gray-200 opacity-75">

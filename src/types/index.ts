@@ -14,6 +14,8 @@ interface SyllableItemType {
 }
 
 interface DataItemType {
+  // 序号
+  id: number
   // 字
   chinese: string
   // 字级
