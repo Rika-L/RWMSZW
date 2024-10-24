@@ -1,42 +1,61 @@
 [
   {
-    "id": 1,
-    "chinese": "和",
+    "id": 0,
+    "chinese": "风",
     "level": "一级字",
-    "strokes": 8,
-    "structure": "左右",
-    "radical": "禾",
+    "stroke": 4,
+    "structure": "单一结构",
+    "radical": "风",
     "syllables": [
       {
-        "spell": "hé",
-        "zhExplain": "表示平静、协调。",
-        "enExplain": "peaceful, harmonious",
+        "spell": "fēng",
+        "zhExplain": "空气流动的现象、趋势、风格",
+        "enExplain": "air in motion, trend, style",
         "words": [
           {
-            "zhWord": "和谐",
-            "enWord": "harmony",
-            "zhSentence": "他们努力创造一个和谐的社会。",
-            "enExplanation": "They strive to create a harmonious society.",
-            "culture": "Harmony is deeply rooted in Confucian thought, where it is seen as a vital value for social and political order."
+            "zhWord": "风格",
+            "enWord": "style",
+            "zhSentence": "他的作品具有独特的艺术风格。",
+            "enExplanation": "His works have a unique artistic style.",
+            "culture": "The concept of '风格' in Chinese culture values the distinctiveness and originality in art and design, reflecting the appreciation for creativity and individuality."
           },
           {
-            "zhWord": "和解",
-            "enWord": "reconciliation",
-            "zhSentence": "双方同意和解。",
-            "enExplanation": "Both parties agreed to reconciliation."
+            "zhWord": "风俗",
+            "enWord": "custom",
+            "zhSentence": "了解一个地方的风俗习惯很重要。",
+            "enExplanation": "It is important to understand the customs and habits of a place.",
+            "culture": "The term '风俗' embodies the cultural significance of traditions and local practices, which are integral to the diversity of Chinese cultural heritage."
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "chinese": "多",
+    "level": "一级字",
+    "stroke": 6,
+    "structure": "上下结构",
+    "radical": "夕",
+    "syllables": [
       {
-        "spell": "hè",
-        "zhExplain": "古代音乐中的一个音阶。",
-        "enExplain": "one of the ancient Chinese musical notes",
+        "spell": "duō",
+        "zhExplain": "数量大、许多、多样",
+        "enExplain": "many, a lot of, diverse",
         "words": [
           {
-            "zhWord": "和声",
-            "enWord": "harmony (in music)",
-            "zhSentence": "这首歌的和声部分非常悦耳。",
-            "enExplanation": "The harmony part of this song is very pleasant to the ear."
+            "zhWord": "多年",
+            "enWord": "many years",
+            "zhSentence": "他们在这个城市生活了很多年。",
+            "enExplanation": "They have lived in this city for many years.",
+            "culture": "The term '多年' captures the cultural significance of time and experience, often associated with wisdom and history."
+          },
+          {
+            "zhWord": "多样",
+            "enWord": "diversity",
+            "zhSentence": "我们应该保护生物多样性。",
+            "enExplanation": "We should protect biodiversity.",
+            "culture": "The concept of '多样' in Chinese culture values the variety of life and the importance of preserving different forms of existence."
           }
         ]
       }
@@ -44,28 +63,30 @@
   },
   {
     "id": 2,
-    "chinese": "学",
+    "chinese": "对",
     "level": "一级字",
-    "strokes": 8,
-    "structure": "上下",
-    "radical": "子",
+    "stroke": 5,
+    "structure": "左右结构",
+    "radical": "又",
     "syllables": [
       {
-        "spell": "xué",
-        "zhExplain": "通过阅读、研究、实践获得知识或技能。",
-        "enExplain": "to learn, to study",
+        "spell": "duì",
+        "zhExplain": "正确、合适、回答、配对",
+        "enExplain": "correct, suitable, answer, match",
         "words": [
           {
-            "zhWord": "学习",
-            "enWord": "study",
-            "zhSentence": "他每天花很多时间学习。",
-            "enExplanation": "He spends a lot of time studying every day."
+            "zhWord": "对立",
+            "enWord": "opposition",
+            "zhSentence": "他们的立场完全对立。",
+            "enExplanation": "Their positions are completely in opposition.",
+            "culture": "The term '对立' represents the cultural understanding of conflicting views or interests, emphasizing the importance of harmony and balance in Chinese philosophy."
           },
           {
-            "zhWord": "学校",
-            "enWord": "school",
-            "zhSentence": "这所学校有悠久的历史。",
-            "enExplanation": "This school has a long history."
+            "zhWord": "对称",
+            "enWord": "symmetry",
+            "zhSentence": "这座建筑的设计风格是对称的。",
+            "enExplanation": "The architectural design of this building is symmetrical.",
+            "culture": "Symmetry in Chinese art and architecture reflects the cultural appreciation for balance and harmony."
           }
         ]
       }
@@ -73,28 +94,30 @@
   },
   {
     "id": 3,
-    "chinese": "爱",
+    "chinese": "非",
     "level": "一级字",
-    "strokes": 13,
-    "structure": "上下",
-    "radical": "心",
+    "stroke": 8,
+    "structure": "单一结构",
+    "radical": "非",
     "syllables": [
       {
-        "spell": "ài",
-        "zhExplain": "对某人或某事物有深厚的感情。",
-        "enExplain": "to love, to be fond of",
+        "spell": "fēi",
+        "zhExplain": "不是、相反、否认",
+        "enExplain": "not, opposite, deny",
         "words": [
           {
-            "zhWord": "爱情",
-            "enWord": "love",
-            "zhSentence": "他们的爱情故事感动了很多人。",
-            "enExplanation": "Their love story touched many people."
+            "zhWord": "非常",
+            "enWord": "extremely",
+            "zhSentence": "这道菜非常美味。",
+            "enExplanation": "This dish is extremely delicious.",
+            "culture": "In Chinese culture, the word '非常' is often used to express a high degree of something, reflecting the richness of the language in conveying emphasis."
           },
           {
-            "zhWord": "爱好",
-            "enWord": "hobby",
-            "zhSentence": "她的爱好是画画。",
-            "enExplanation": "Her hobby is painting."
+            "zhWord": "非法",
+            "enWord": "illegal",
+            "zhSentence": "非法行为将受到法律的制裁。",
+            "enExplanation": "Illegal actions will be punished by law.",
+            "culture": "The term '非法' highlights the importance of law and order in society, a concept deeply rooted in Chinese legal culture."
           }
         ]
       }

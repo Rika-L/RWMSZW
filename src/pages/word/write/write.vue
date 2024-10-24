@@ -1,6 +1,4 @@
 <script lang="ts" setup>
-// @ts-nocheck
-
 import TopBar from '@/components/TopBar.vue'
 
 const ctx = ref<UniNamespace.CanvasContext | null>()
@@ -90,12 +88,9 @@ onLoad((options) => {
   wordIndex.value = Number(options!.wordIndex)
   strokeTotal.value = Number(options!.stroke)
 })
-
+let interval: any = null
 function auto() {
-  const interval = setInterval(() => {
-    console.log(typeof strokeTotal.value)
-    console.log(typeof stroke.value)
-
+  interval = setInterval(() => {
     if (stroke.value !== strokeTotal.value) {
       next()
     }
@@ -111,6 +106,10 @@ const isWrite = ref(false)
 watchEffect(() => {
   if (isWrite.value) {
     initCanvas()
+  }
+  // 清空定时器
+  if (interval) {
+    clearInterval(interval)
   }
 })
 
@@ -138,7 +137,7 @@ function exit() {
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
       <view class="flex w-full justify-center">
         <view class="relative size-[400rpx]">
-          <image :src="`/static/img/${stroke}.png`" class="absolute left-0 top-0 w-[400rpx] rounded-xl" mode="widthFix" />
+          <image :src="`/static/img/${wordIndex}/${stroke}.png`" class="absolute left-0 top-0 size-[400rpx] rounded-xl" mode="aspectFill" />
           <canvas
             v-if="isWrite"
             id="canvas"
@@ -153,6 +152,7 @@ function exit() {
       </view>
     </view>
     <view
+      v-if="!isWrite"
       class="mb-1 mt-5 flex w-full justify-center rounded-xl bg-white/20 p-4 backdrop-blur-md"
       @tap="auto"
     >

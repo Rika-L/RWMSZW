@@ -32,7 +32,7 @@ function deleteData() {
 // 跳转的界面函数
 function hdlTap(id: number) {
   uni.navigateTo({
-    url: `/pages/word/word?index=${id - 1}`,
+    url: `/pages/word/word?index=${id}`,
   })
 }
 </script>
@@ -49,7 +49,7 @@ function hdlTap(id: number) {
       </text>
     </view>
     <view v-show="show" class=" absolute left-[392rpx] top-[12rpx] flex size-[50rpx] opacity-40" hover-class="none" hover-stop-propagation="false" @tap="deleteData">
-      <img src="E:\实验室项目1\RWMSZW\src\static\icon\delete.png" alt="" class="size-[50rpx]">
+      <img src="/src/static/icon/delete.png" alt="" class="size-[50rpx]">
     </view>
   </div>
   <scroll-view
@@ -69,7 +69,7 @@ function hdlTap(id: number) {
       </div>
       <view class=" absolute left-[250rpx] top-[5rpx] mt-[28rpx] flex flex-col text-[30rpx]">
         <view>Level:{{ item.level }}</view>
-        <view>Stroke:{{ item.strokes }}</view>
+        <view>Stroke:{{ item.stroke }}</view>
       </view>
     </view>
   </scroll-view>
