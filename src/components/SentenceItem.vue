@@ -26,7 +26,8 @@ defineProps<Props>()
     <view class="text-sm text-gray-900">
       {{ enExplanation }}
     </view>
-    <view class="text-sm text-gray-500">
+    <u-divider />
+    <view class="text-sm font-semibold text-cyan-950/85">
       Related Cultures: {{ culture ? culture : 'None' }}
     </view>
   </view>
