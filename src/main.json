@@ -796,6 +796,172 @@
         ]
       }
     ]
+  },
+  {
+    "id": 25,
+    "chinese": "安",
+    "level": "一级字",
+    "stroke": 6,
+    "structure": "上下结构",
+    "radical": "宀",
+    "syllables": [
+      {
+        "spell": "ān",
+        "zhExplain": "平静、安定、安全",
+        "enExplain": "Calm, stable, and safe",
+        "words": [
+          {
+            "zhWord": "安全",
+            "enWord": "secure",
+            "zhSentence": "中国很安全。",
+            "enExplanation": "China is very safe.",
+            "culture": "The concept of safety is highly valued in Chinese culture, emphasizing social harmony and personal well-being."
+          },
+          {
+            "zhWord": "安静",
+            "enWord": "quiet",
+            "zhSentence": "这个女孩很安静。",
+            "enExplanation": "This girl is very quiet.",
+            "culture": "In Chinese culture, quietness is often associated with inner peace and is considered a virtue, especially in contrast to the hustle and bustle of modern life."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "chinese": "把",
+    "level": "一级字",
+    "stroke": 7,
+    "structure": "左右结构",
+    "radical": "手（扌）",
+    "syllables": [
+      {
+        "spell": "bǎ",
+        "zhExplain": "握持、执，后引申为把守、控制。",
+        "enExplain": "Grip, hold, later extended to guard, control.",
+        "words": [
+          {
+            "zhWord": "把握",
+            "enWord": "grasp",
+            "zhSentence": "希望你把握住这次机会。",
+            "enExplanation": "I hope you seize this opportunity.",
+            "culture": "In Chinese culture, the concept of '把握' is often used to encourage someone to take hold of opportunities that come their way."
+          },
+          {
+            "zhWord": "把住",
+            "enWord": "guard",
+            "zhSentence": "把住这棵树。",
+            "enExplanation": "Hold onto this tree.",
+            "culture": "The phrase '把住' is commonly used to instruct someone to hold firmly onto something, often for safety or stability."
+          }
+        ]
+      },
+      {
+        "spell": "bà",
+        "zhExplain": "器物上便于用手拿的部分，或者植物上支持着一个或多个叶片、花朵或果实的柄。",
+        "enExplain": "The part of an object that is easy to hold by hand, or the stem on a plant that supports one or more leaves, flowers, or fruits.",
+        "words": [
+          {
+            "zhWord": "刀把儿",
+            "enWord": "knife handle",
+            "zhSentence": "这是刀把儿。",
+            "enExplanation": "This is a knife handle.",
+            "culture": "In Chinese, '刀把儿' refers to the handle of a knife, which is an essential part for grip and control when using the knife."
+          },
+          {
+            "zhWord": "话把",
+            "enWord": "pretext for attack",
+            "zhSentence": "被人抓住了话把。",
+            "enExplanation": "Someone caught the conversation.",
+            "culture": "The term '话把' is used to describe a situation where someone has been caught off guard in a conversation, which can be used against them."
+          }
+        ]
+      },
+      {
+        "spell": "pá",
+        "zhExplain": "搔，同“爬”，或者表“姓”。",
+        "enExplain": "Scratch, climb, or indicate surname.",
+        "words": [
+          {
+            "zhWord": "爬树",
+            "enWord": "climb a tree",
+            "zhSentence": "孩子们喜欢爬树。",
+            "enExplanation": "Children like to climb trees.",
+            "culture": "Climbing trees is a common childhood activity that symbolizes adventure and the spirit of exploration in Chinese culture."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "chinese": "爱",
+    "level": "一级字",
+    "stroke": 13,
+    "structure": "上下结构",
+    "radical": "心",
+    "syllables": [
+      {
+        "spell": "ài",
+        "zhExplain": "对某人或某事物有深厚的感情。",
+        "enExplain": "to love, to be fond of",
+        "words": [
+          {
+            "zhWord": "爱情",
+            "enWord": "love",
+            "zhSentence": "他们的爱情故事感动了很多人。",
+            "enExplanation": "Their love story touched many people.",
+            "culture": "In Chinese culture, love stories like Chang'e flying to the moon are well-known and symbolize the longing for love."
+          },
+          {
+            "zhWord": "爱好",
+            "enWord": "hobby",
+            "zhSentence": "她的爱好是画画。",
+            "enExplanation": "Her hobby is painting.",
+            "culture": "Hobbies are an important part of personal culture and can reflect one's interests and passions."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "chinese": "都",
+    "level": "一级字",
+    "stroke": 10,
+    "structure": "左右结构",
+    "radical": "阝",
+    "syllables": [
+      {
+        "spell": "dū",
+        "zhExplain": "用于表示大城市、首都、都城等。",
+        "enExplain": "capital, city, metropolis",
+        "words": [
+          {
+            "zhWord": "首都",
+            "enWord": "capital",
+            "zhSentence": "中国的首都是北京。",
+            "enExplanation": "The capital of China is Beijing.",
+            "culture": "China's capital is home to many World Cultural Heritage sites, such as the Forbidden City, the Great Wall, and the Summer Palace."
+          }
+        ]
+      },
+      {
+        "spell": "dōu",
+        "zhExplain": "用作副词，表示全部、都。",
+        "enExplain": "all, entirely, altogether",
+        "words": [
+          {
+            "zhWord": "全都",
+            "enWord": "all",
+            "zhSentence": "这些苹果全都是我的。",
+            "enExplanation": "These apples are all mine.",
+            "culture": "In order for every country to develop better, China has been striving to build a community with a shared future for mankind."
+          }
+        ]
+      }
+    ]
   }
 
 ]
