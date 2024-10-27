@@ -1,5 +1,7 @@
 <script lang="ts" setup>
+// @ts-nocheck
 import TopBar from '@/components/TopBar.vue'
+import { IMG_BASE_URL } from '@/constant'
 
 const ctx = ref<UniNamespace.CanvasContext | null>()
 
@@ -137,7 +139,7 @@ function exit() {
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
       <view class="flex w-full justify-center">
         <view class="relative size-[400rpx]">
-          <image :src="`/static/img/${wordIndex}/${stroke}.png`" class="absolute left-0 top-0 size-[400rpx] rounded-xl" mode="aspectFill" />
+          <image :src="`${IMG_BASE_URL}${wordIndex}/${stroke}.png`" class="absolute left-0 top-0 size-[400rpx] rounded-xl" mode="aspectFill" />
           <canvas
             v-if="isWrite"
             id="canvas"

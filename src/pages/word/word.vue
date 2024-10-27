@@ -1,6 +1,7 @@
 <script lang="ts" setup>
 import DYZItem from '@/components/DYZItem.vue'
 import TopBar from '@/components/TopBar.vue'
+import { IMG_BASE_URL } from '@/constant'
 import data from '@/main.json'
 
 const wordIndex = ref(0)
@@ -43,7 +44,7 @@ function hdlClickWrite() {
       </view>
     </view>
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md" @tap="hdlClickWrite">
-      <image :src="`/static/img/${wordIndex}/main.png`" mode="widthFix" />
+      <image :src="`${IMG_BASE_URL}${wordIndex}/main.png`" mode="widthFix" />
       <view class="flex items-center justify-end text-gray-800">
         <text>Practice</text>
         <text class="i-mdi-arrow-right" />
