@@ -133,7 +133,7 @@ function exit() {
 
 <template>
   <view class="fixed left-0 top-0 -z-10 size-full backdrop-blur" />
-  <image src="/src/static/img/bg2.jpg" class="fixed left-0 top-0 -z-20 size-full" />
+  <image src="/src/static/img/bg3.jpg" class="fixed left-0 top-0 -z-20 size-full" />
   <TopBar />
   <view class="mt-[30px] px-4">
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
