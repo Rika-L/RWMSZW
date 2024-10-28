@@ -67,9 +67,18 @@ function hdlTap(id: number) {
           {{ item.chinese }}
         </text>
       </div>
-      <view class=" absolute left-[250rpx] top-[5rpx] mt-[28rpx] flex flex-col text-[30rpx]">
+      <view class=" absolute left-[250rpx] top-[-15rpx] mt-[28rpx] flex flex-col text-[30rpx]">
         <view>Level:{{ item.level }}</view>
         <view>Stroke:{{ item.stroke }}</view>
+        <view>
+          spell:
+          <template v-if="item.syllables.length === 1">
+            {{ item.syllables[0].spell }}
+          </template>
+          <template v-else>
+            {{ item.syllables.map(syllable => syllable.spell).join('; ') }}
+          </template>
+        </view>
       </view>
     </view>
   </scroll-view>
