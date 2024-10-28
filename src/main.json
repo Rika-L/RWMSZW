@@ -2,9 +2,9 @@
   {
     "id": 0,
     "chinese": "风",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 4,
-    "structure": "单一结构",
+    "structure": "Single structure",
     "radical": "风",
     "syllables": [
       {
@@ -33,9 +33,9 @@
   {
     "id": 1,
     "chinese": "多",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 6,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "夕",
     "syllables": [
       {
@@ -64,9 +64,9 @@
   {
     "id": 2,
     "chinese": "对",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 5,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "又",
     "syllables": [
       {
@@ -95,9 +95,9 @@
   {
     "id": 3,
     "chinese": "非",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 8,
-    "structure": "单一结构",
+    "structure": "Single structure",
     "radical": "非",
     "syllables": [
       {
@@ -126,9 +126,9 @@
   {
     "id": 4,
     "chinese": "彩",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 11,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "彡",
     "syllables": [
       {
@@ -157,9 +157,9 @@
   {
     "id": 5,
     "chinese": "菜",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 11,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "艹",
     "syllables": [
       {
@@ -188,9 +188,9 @@
   {
     "id": 6,
     "chinese": "初",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 7,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "衤",
     "syllables": [
       {
@@ -219,9 +219,9 @@
   {
     "id": 7,
     "chinese": "春",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 9,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "日",
     "syllables": [
       {
@@ -250,9 +250,9 @@
   {
     "id": 8,
     "chinese": "得",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 11,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "彳",
     "syllables": [
       {
@@ -292,9 +292,9 @@
   {
     "id": 9,
     "chinese": "的",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 8,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "白",
     "syllables": [
       {
@@ -323,9 +323,9 @@
   {
     "id": 10,
     "chinese": "否",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 7,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "口",
     "syllables": [
       {
@@ -354,9 +354,9 @@
   {
     "id": 11,
     "chinese": "福",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 13,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "礻",
     "syllables": [
       {
@@ -385,9 +385,9 @@
   {
     "id": 12,
     "chinese": "富",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 12,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "宀",
     "syllables": [
       {
@@ -416,9 +416,9 @@
   {
     "id": 13,
     "chinese": "歌",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 14,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "欠",
     "syllables": [
       {
@@ -447,9 +447,9 @@
   {
     "id": 14,
     "chinese": "好",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 6,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "女",
     "syllables": [
       {
@@ -478,9 +478,9 @@
   {
     "id": 15,
     "chinese": "和",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 8,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "禾",
     "syllables": [
       {
@@ -509,9 +509,9 @@
   {
     "id": 16,
     "chinese": "红",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 6,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "纟",
     "syllables": [
       {
@@ -540,9 +540,9 @@
   {
     "id": 17,
     "chinese": "话",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 8,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "讠",
     "syllables": [
       {
@@ -571,9 +571,9 @@
   {
     "id": 18,
     "chinese": "活",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 9,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "氵",
     "syllables": [
       {
@@ -602,9 +602,9 @@
   {
     "id": 19,
     "chinese": "火",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 4,
-    "structure": "单一结构",
+    "structure": "Single structure",
     "radical": "火",
     "syllables": [
       {
@@ -633,9 +633,9 @@
   {
     "id": 20,
     "chinese": "家",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 10,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "宀",
     "syllables": [
       {
@@ -664,9 +664,9 @@
   {
     "id": 21,
     "chinese": "看",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 9,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "目",
     "syllables": [
       {
@@ -701,9 +701,9 @@
   {
     "id": 22,
     "chinese": "可",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 5,
-    "structure": "半包围结构",
+    "structure": "Semi-enclosed structure",
     "radical": "口",
     "syllables": [
       {
@@ -738,9 +738,9 @@
   {
     "id": 23,
     "chinese": "冬",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 5,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "夂",
     "syllables": [
       {
@@ -769,9 +769,9 @@
   {
     "id": 24,
     "chinese": "读",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 10,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "言",
     "syllables": [
       {
@@ -800,9 +800,9 @@
   {
     "id": 25,
     "chinese": "安",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 6,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "宀",
     "syllables": [
       {
@@ -831,9 +831,9 @@
   {
     "id": 26,
     "chinese": "把",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 7,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "手（扌）",
     "syllables": [
       {
@@ -897,9 +897,9 @@
   {
     "id": 27,
     "chinese": "爱",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 13,
-    "structure": "上下结构",
+    "structure": "Up and down structure",
     "radical": "心",
     "syllables": [
       {
@@ -928,9 +928,9 @@
   {
     "id": 28,
     "chinese": "都",
-    "level": "一级字",
+    "level": "First-level word",
     "stroke": 10,
-    "structure": "左右结构",
+    "structure": "Left and right structure",
     "radical": "阝",
     "syllables": [
       {

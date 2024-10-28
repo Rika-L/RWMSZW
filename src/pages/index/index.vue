@@ -67,7 +67,7 @@ function hdlTap(id: number) {
           {{ item.chinese }}
         </text>
       </div>
-      <view class=" absolute left-[250rpx] top-[-15rpx] mt-[28rpx] flex flex-col text-[30rpx]">
+      <view class=" absolute left-[203rpx] top-[-15rpx] mt-[28rpx] flex flex-col items-center justify-center text-[30rpx]">
         <view>Level:{{ item.level }}</view>
         <view>Stroke:{{ item.stroke }}</view>
         <view>
