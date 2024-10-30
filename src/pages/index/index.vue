@@ -53,7 +53,7 @@ function hdlTap(id: number) {
     </view>
   </div>
   <scroll-view
-    class=" absolute ml-[90rpx] mt-[50rpx] flex h-[900rpx] w-full flex-wrap " scroll-x="false" scroll-y="true"
+    class=" absolute ml-[90rpx] mt-[50rpx] flex h-[1100rpx] w-full flex-wrap " scroll-x="false" scroll-y="true"
   >
     <view
       v-for="item in filteredData"
