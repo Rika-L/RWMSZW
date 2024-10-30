@@ -547,22 +547,22 @@
     "syllables": [
       {
         "spell": "huà",
-        "zhExplain": "说出来的能够表达思想的声音，或者把这种声音记录下来的文字；说；谈",
-        "enExplain": "Spoken voices that express thoughts, or words that record such sounds; Say; Talk",
+        "zhExplain": "①说出来的能表达思想感情的声音，亦指把这种声音记录下来的文字；②说，谈论",
+        "enExplain": "①The spoken words that express thoughts and feelings, also referring to the written words that record such sounds; ②Speak, talk.",
         "words": [
           {
             "zhWord": "说话",
-            "enWord": "speak",
-            "zhSentence": "他们在宿舍里说话。",
-            "enExplanation": "They talk in the dorms.",
-            "culture": "China uses euphemistic language when speaking, such as 'long lost' when it is said that they have not seen each other for a long time"
+            "enWord": "talk,speak",
+            "zhSentence": "他们正在校园里说话。",
+            "enExplanation": "They are talking in the campus.",
+            "culture": "Chinese people use euphemistic language when they speak, such as their house is called 'humble house'."
           },
           {
             "zhWord": "神话",
-            "enWord": "myth",
+            "enWord": "mythic",
             "zhSentence": "中国有很多神话故事。",
             "enExplanation": "There are many mythological stories in China.",
-            "culture": "There are mythological stories in China such as Nüwa mending the sky, Pangu opening the sky, and Jingwei filling the sea."
+            "culture": "In China, there are mythological stories such as Nuwa mending the sky, Pangu opening the sky and Jingwei reclaiming the sea."
           }
         ]
       }
@@ -578,22 +578,22 @@
     "syllables": [
       {
         "spell": "huó",
-        "zhExplain": "指生存、生命或行动不受限制的状态。",
-        "enExplain": "live, active, or not fixed in position",
+        "zhExplain": "①生存，有生命的，能生长，与“死”相对；②救活，使人活；③在活的状态下；④逼真地；⑤不固定，可移动，或处在进去状态的；⑥生动，不呆板，机灵，有生气；⑦工作或生产品；",
+        "enExplain": "①To live, to be alive, to grow, as opposed to death; ②Resuscitation, so that people live; ③In a living state; ④ Realistically; ⑤Not fixed, movable, or in a state of entry; ⑥ Vivid, not stiff, clever, lively; ⑦ Work or produce products;",
         "words": [
           {
             "zhWord": "活动",
             "enWord": "activity",
-            "zhSentence": "孩子们在公园里做各种活动。",
-            "enExplanation": "Children engage in various activities in the park.",
-            "culture": "In Chinese culture, outdoor activities are encouraged for children's development and well-being."
+            "zhSentence": "过春节的时候有很多活动。",
+            "enExplanation": "There are many activities during the Spring Festival.",
+            "culture": "Chinese New Year activities include having a family reunion dinner, Posting couplets, setting off firecrackers and so on."
           },
           {
-            "zhWord": "灵活",
-            "enWord": "flexible",
-            "zhSentence": "她以灵活的方法解决了这个问题。",
-            "enExplanation": "She solved the problem with a flexible approach.",
-            "culture": "Flexibility is valued in Chinese culture as it allows for adaptability in various situations."
+            "zhWord": "生活",
+            "enWord": "life",
+            "zhSentence": "人人都能大幅提高生活质量。",
+            "enExplanation": "Everyone can greatly improve the quality of life.",
+            "culture": "Chinese people have the habit of drinking tea in their daily life."
           }
         ]
       }
@@ -609,21 +609,21 @@
     "syllables": [
       {
         "spell": "huǒ",
-        "zhExplain": "燃烧，物质燃烧时所发出的光和焰；紧急；指枪炮弹药等；发怒、怒气；形容红色；",
-        "enExplain": "Burning, the light and flame emitted when a substance burns; Urgent; Refers to firearms, ammunition, and other materials; Anger, rage; Describe the color red;",
+        "zhExplain": "①燃烧，物质燃烧时所发出的光和焰；②紧急；③指枪炮弹药等；④发怒，怒气；⑤中医指发炎、红肿、烦躁等的病因；⑥形容红色的；⑦古代军队组织，一火十个人；⑧姓。",
+        "enExplain": "①flame, the light and flame emitted by a burning substance;②urgent;③referring to firearms, ammunition, etc.;④anger, anger;⑤in traditional Chinese medicine, the cause of inflammation, redness, irritability, etc.;⑥describing something red;⑦an ancient military organization, one fire for ten people;⑧a surname.",
         "words": [
           {
             "zhWord": "火药",
             "enWord": "gunpowder",
             "zhSentence": "战争的时候经常会用到火药。",
-            "enExplanation": "Gunpowder is often used during wars.",
-            "culture": "Gunpowder is one of China's the Four Great Inventions."
+            "enExplanation": "Fireworks are often used during wars.",
+            "culture": "Gunpowder is one of the four great inventions of China."
           },
           {
             "zhWord": "火焰",
             "enWord": "flame",
             "zhSentence": "爱是生命的火焰，没有它，一切变得黑暗。",
-            "enExplanation": "Love is the flame of life, without it, everything will be in the dark.",
+            "enExplanation": "Love is the flame of life, without it, everything is dark.",
             "culture": "Making iron flowers is a Chinese intangible cultural heritage technique."
           }
         ]
@@ -640,22 +640,50 @@
     "syllables": [
       {
         "spell": "jiā",
-        "zhExplain": "亲人共同生活的场所；家中的；尊称有某种专门学识或专门技术的人；学术流派；经营某种行业或具有某种身分的人；自称或称别人；对人谦称自己的亲长；量词，计算家庭、店铺、大型企业等的单位。",
-        "enExplain": "A place where relatives live together; At home; Respectfully refer to a person who has certain specialized knowledge or skills; Academic schools; A person who operates in a certain industry or holds a certain identity; Self proclaimed or referred to as someone else; Humble oneself to others as one's own elder; Quantifier, used to calculate units such as households, shops, and large enterprises.",
+        "zhExplain": "①共同生活的眷属和他们所住的地方；②家庭所在的地方；居住；③对人称自己的尊长、亲属；④家里养的，不是野生的；⑤经营某种行业的人家或有某种身份的人家；⑥掌握某种专门学识或有丰富实践经验及从事某种专门活动的人；⑦学术流派；⑧量词，用于计算家庭或企业；⑨姓。",
+        "enExplain": "The family members who live together and the place where they live; ② Where the family lives; To reside; To call themselves elders and relatives; ④ Domesticated, not wild; ⑤ People in a certain profession or in a certain position;⑥A person who has mastered certain specialized knowledge or has rich practical experience and engages in certain specialized activities; ⑦ Academic schools; ⑧ Quantifiers, used to calculate households or businesses; Last name.",
         "words": [
           {
             "zhWord": "儒家",
             "enWord": "the Confucianists",
             "zhSentence": "儒家重视道德教化的思想对后世影响很大。",
-            "enExplanation": "The Confucian emphasis on moral education has had a great influence on later generations.",
+            "enExplanation": "Confucianism attaches great importance to moral education and has great influence on later generations.",
             "culture": "Confucian culture is an important component of traditional Chinese culture."
           },
           {
             "zhWord": "家庭",
             "enWord": "family",
             "zhSentence": "我们生活在一个有爱的大家庭里。",
-            "enExplanation": "We live in a loving big family.",
+            "enExplanation": "We live in a big family with love.",
             "culture": "Chinese people attach importance to family education and cultivate children's correct attitude."
+          }
+        ]
+      },
+      {
+        "spell": "jia",
+        "zhExplain": "①词尾，指一类的人；②用在男人的名字或排行后面，指他的妻；",
+        "enExplain": "The end of the word refers to a class of people; ② Used after a man's name or rank to refer to his wife;",
+        "words": [
+          {
+            "zhWord": "老人家",
+            "enWord": "Old man",
+            "zhSentence": "老人家应该受到关心和照顾。",
+            "enExplanation": "Old people should be cared for and taken care of.",
+            "culture": "Respecting the old and caring for the young has always been one of the basic moral norms in traditional Chinese society. Old people are seen as symbols of wisdom and experience, while young people are seen as hope for the future. Therefore, respecting the elderly and caring for children have become the traditional virtues of many Chinese people."
+          }
+        ]
+      },
+      {
+        "spell": "jie",
+        "zhExplain": "词尾，同“价”；",
+        "enExplain": "The end of the word is the same as 'price';",
+        "words": [
+          {
+            "zhWord": "整天家",
+            "enWord": "Stay home all day long",
+            "zhSentence": "他整天家学习。",
+            "enExplanation": "He stayed home all day studying.",
+            "culture": "Know the meaning of the word. Oracle bone inscriptions, with the word 'one' (mian) above, represent and Home related, below is 'pig', that is, pig. Low ancient productivity Next, people often raise pigs in the house, so there are pigs in the house Their logo. Original meaning: house, residence."
           }
         ]
       }
