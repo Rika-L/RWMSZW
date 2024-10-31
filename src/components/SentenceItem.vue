@@ -20,7 +20,7 @@ defineProps<Props>()
         {{ enWord }}
       </view>
     </view>
-    <view class="text-base text-gray-700">
+    <view class="pinyin text-base text-gray-700">
       {{ zhSentence }}
     </view>
     <view class="text-sm text-gray-900">
