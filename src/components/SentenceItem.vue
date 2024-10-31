@@ -13,7 +13,7 @@ defineProps<Props>()
 <template>
   <view class="my-2 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
     <view class="flex items-center gap-2">
-      <view class="text-xl text-blue-700">
+      <view class="pinyin text-xl text-blue-700">
         {{ zhWord }}
       </view>
       <view class="text-xl text-blue-600">
