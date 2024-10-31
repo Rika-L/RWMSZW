@@ -19,7 +19,9 @@ defineProps<Props>()
       <view class="i-mdi-speakerphone text-red-700" />
       <view class="i-mdi-star-outline text-yellow-700" />
     </view>
-    <view>{{ zhExplain }}</view>
+    <view class="pinyin">
+      {{ zhExplain }}
+    </view>
     <view>
       {{ enExplain }}
     </view>
