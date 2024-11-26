@@ -25,6 +25,12 @@ function hdlClickWrite() {
     url: `/pages/word/write/write?stroke=${wordDetail.value.stroke}&wordIndex=${wordIndex.value}`,
   })
 }
+
+function hdlClickPhrase() {
+  uni.navigateTo({
+    url: `/pages/word/phrase/phrase`,
+  })
+}
 </script>
 
 <template>
@@ -62,6 +68,12 @@ function hdlClickWrite() {
         <text class="i-mdi-arrow-right" />
       </view>
     </view>
+    <view class="my-5 flex w-full gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md" @tap="hdlClickPhrase">
+      <view class="flex items-center justify-end text-gray-800">
+        <text>Vocabulary practice</text>
+        <text class="i-mdi-arrow-right" />
+      </view>
+    </view>
     <DYZItem
       v-for="(item, index) in wordDetail.syllables"
       :key="index"
@@ -74,6 +86,7 @@ function hdlClickWrite() {
 </template>
 
 <style>
+/* stylelint-disable-next-line selector-type-no-unknown */
 page {
   padding-bottom: 300px;
 }

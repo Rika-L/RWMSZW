@@ -19,6 +19,12 @@
       }
     },
     {
+      "path": "pages/word/phrase/phrase",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
       "path": "pages/word/write/write",
       "style": {
         "navigationStyle": "custom"
