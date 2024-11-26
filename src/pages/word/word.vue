@@ -28,6 +28,18 @@ function hdlClickWrite() {
 </script>
 
 <template>
+  <view class="fixed bottom-[20rpx] z-50 px-[20rpx]">
+    <view class="flex h-12 w-[calc(100vw-40rpx)] items-center justify-between rounded-full bg-green-900/70 p-2 text-white backdrop-blur-sm">
+      <view class="text-xs">
+        Ask | How to comprehend the word?
+      </view>
+      <view class="flex items-center gap-1">
+        <view class="i-mdi-search" />
+        <view class="i-mdi-drag-vertical-variant" />
+        <view class="i-mdi-camera" />
+      </view>
+    </view>
+  </view>
   <view class="fixed left-0 top-0 -z-10 size-full backdrop-blur" />
   <image src="/src/static/img/bg3.jpg" class="fixed left-0 top-0 -z-20 size-full" />
   <TopBar />
@@ -60,3 +72,9 @@ function hdlClickWrite() {
     />
   </view>
 </template>
+
+<style>
+page {
+  padding-bottom: 300px;
+}
+</style>

@@ -52,8 +52,24 @@ function hdlTap(id: number) {
       <img src="/src/static/icon/delete.png" alt="" class="size-[50rpx]">
     </view>
   </div>
+  <view class="my-2 px-[90rpx]">
+    <view class="flex flex-col gap-3 rounded-[30rpx] bg-green-900/50 p-2">
+      <view class="flex items-center gap-1 text-white">
+        <view class="i-mdi-chat-question" /><text>小又</text>
+      </view>
+      <view class="p-px text-xs text-white">
+        What is the meaning of "家"?
+      </view>
+      <view class="p-px text-xs text-white">
+        How to learn Chinese?
+      </view>
+      <view class="p-px text-right text-xs text-white">
+        Try to talk with AI Helper >
+      </view>
+    </view>
+  </view>
   <scroll-view
-    class=" absolute ml-[90rpx] mt-[50rpx] flex h-[76%] w-full flex-wrap " scroll-x="false" scroll-y="true"
+    class=" absolute ml-[90rpx] mt-[20rpx] flex h-[1100rpx] w-full flex-wrap " scroll-x="false" scroll-y="true"
   >
     <view
       v-for="item in filteredData"
