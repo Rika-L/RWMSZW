@@ -53,6 +53,13 @@ function hdlTap(id: number) {
     </view>
   </div>
   <view class="my-2 px-[90rpx]">
+    <view class="mb-2 flex items-center justify-between rounded-[30rpx] bg-green-900/50 p-2 text-white">
+      <view class="flex items-center gap-1">
+        <view>Favorite Folders</view>
+        <view class="i-mdi-favorite-box text-xl" />
+      </view>
+      <text class="i-mdi-arrow-right text-xl" />
+    </view>
     <view class="flex flex-col gap-3 rounded-[30rpx] bg-green-900/50 p-2">
       <view class="flex items-center gap-1 text-white">
         <view class="i-mdi-chat-question" /><text>小又</text>
