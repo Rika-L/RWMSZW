@@ -990,6 +990,67 @@
         ]
       }
     ]
+  },
+  {
+    "id": 29,
+    "chinese": "安",
+    "level": "一级词汇",
+    "stroke": 6,
+    "structure": "上下结构",
+    "radical": "宀",
+    "syllables": [
+      {
+        "spell": "ān",
+        "zhExplain": "平静、安定、安全",
+        "enExplain": "穏やか、安定的、安全",
+        "words": [
+          {
+            "zhWord": "安全",
+            "enWord": "安全",
+            "zhSentence": "中国很安全。",
+            "enExplanation": "中国は非常に安全です。",
+            "culture": "中国文化では、安全の概念が高く評価されており、社会の調和と個人の幸福を強調しています。"
+          },
+          {
+            "zhWord": "安静",
+            "enWord": "静か",
+            "zhSentence": "这个女孩很安静。",
+            "enExplanation": "この少女はとても静かです。",
+            "culture": "中国文化では、静かさが内面的平和と関連付けられており、特に現代生活の忙しさと対比して、徳と見なされています。"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "chinese": "安",
+    "level": "mot de premier niveau",
+    "stroke": 6,
+    "structure": "structure en haut et en bas",
+    "radical": "宀",
+    "syllables": [
+      {
+        "spell": "ān",
+        "zhExplain": "平静、安定、安全",
+        "enExplain": "calme, stable, et sûr",
+        "words": [
+          {
+            "zhWord": "安全",
+            "enWord": "sécurité",
+            "zhSentence": "中国很安全。",
+            "enExplanation": "La Chine est très sûre.",
+            "culture": "Le concept de sécurité est très valorisé dans la culture chinoise, soulignant l'harmonie sociale et le bien-être personnel."
+          },
+          {
+            "zhWord": "安静",
+            "enWord": "tranquille",
+            "zhSentence": "这个女孩很安静。",
+            "enExplanation": "Cette fille est très tranquille.",
+            "culture": "Dans la culture chinoise, le calme est souvent associé à la paix intérieure et est considéré comme une vertu, surtout en contraste avec le tumulte de la vie moderne."
+          }
+        ]
+      }
+    ]
   }
-
 ]
