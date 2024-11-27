@@ -141,12 +141,12 @@ function exit() {
   <view class="mt-[30px] px-4">
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
       <view class="flex w-full justify-center">
-        <view class="rounded-md bg-white/50 p-2 text-7xl text-gray-900">
-          <view v-if="stroke <= 6" class=" absolute left-[96px] top-[20px] size-[100px] bg-slate-500/50" />
+        <view class="rounded-md  bg-white/50 p-2 text-7xl text-gray-900">
+          <view v-if="stroke <= 6" class=" absolute left-[163rpx] top-[26rpx] size-[177rpx]  bg-slate-500/50" />
           红
         </view>
         <view class="rounded-md bg-white/50 p-2 text-7xl text-gray-900">
-          <view v-if="stroke > 6" class=" absolute left-[198px] top-[20px] size-[100px] bg-slate-500/50" />
+          <view v-if="stroke > 6" class=" absolute left-[338rpx] top-[26rpx] size-[177rpx] bg-slate-500/50" />
           歌
         </view>
       </view>
