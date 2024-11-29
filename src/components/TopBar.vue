@@ -1,4 +1,5 @@
 <script lang="ts" setup>
+defineProps<{ showMenu?: boolean }>()
 const statusBarHeightValue = ref(20)
 const topBarHeight = computed(() => statusBarHeightValue.value + 44)
 const menuButtonLeft = ref(281)
@@ -25,9 +26,9 @@ function back() {
         <view class="i-mdi-arrow-back text-xl" @click="back" />
       </view>
       <view class="flex items-center justify-end gap-2">
-        <view class="i-mdi-star-outline text-xl" />
-        <view class="i-mdi-trash-can-outline text-xl" />
-        <view class="i-solar-menu-dots-bold text-xl" />
+        <view v-show="!showMenu" class="i-mdi-star-outline text-xl" />
+        <view v-show="!showMenu" class="i-mdi-trash-can-outline text-xl" />
+        <view v-show="!showMenu" class="i-solar-menu-dots-bold text-xl" />
       </view>
     </view>
   </view>

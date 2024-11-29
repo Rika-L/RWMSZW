@@ -35,6 +35,12 @@ function hdlTap(id: number) {
     url: `/pages/word/word?index=${id}`,
   })
 }
+
+function toCheck() {
+  uni.navigateTo({
+    url: '/pages/check/check',
+  })
+}
 </script>
 
 <template>
@@ -53,7 +59,7 @@ function hdlTap(id: number) {
     </view>
   </div>
   <view class="my-2 px-[90rpx]">
-    <view class="mb-2 flex items-center justify-between rounded-[30rpx] bg-green-900/50 p-2 text-white">
+    <view class="mb-2 flex items-center justify-between rounded-[30rpx] bg-green-900/50 p-2 text-white" @tap="toCheck">
       <view class="flex items-center gap-1">
         <view>Favorite Folders</view>
         <view class="i-mdi-favorite-box text-xl" />
