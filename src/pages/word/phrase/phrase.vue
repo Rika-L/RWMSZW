@@ -88,7 +88,7 @@ function clear() {
 
 onLoad((options) => {
   wordIndex.value = Number(options!.wordIndex)
-  strokeTotal.value = 20
+  strokeTotal.value = 8
 })
 let interval: any = null
 function auto() {
@@ -109,7 +109,7 @@ watchEffect(() => {
   if (isWrite.value) {
     initCanvas()
   }
-  if (stroke.value === 7) {
+  if (stroke.value === 5) {
     clear()
   }
   // 清空定时器
@@ -142,12 +142,18 @@ function exit() {
     <view class="my-10 flex w-full flex-col gap-1 rounded-xl bg-white/20 p-4 backdrop-blur-md">
       <view class="flex w-full justify-center">
         <view class="rounded-md  bg-white/50 p-2 text-7xl text-gray-900">
-          <view v-if="stroke <= 6" class=" absolute left-[163rpx] top-[26rpx] size-[177rpx]  rounded-lg bg-slate-500/20" />
-          红
+          <view v-if="stroke <= 4" class=" absolute left-[-6rpx] top-[39rpx] size-[177rpx]  rounded-lg bg-slate-500/20" />
+          文
         </view>
         <view class="rounded-md bg-white/50 p-2 text-7xl text-gray-900">
-          <view v-if="stroke > 6" class=" absolute left-[338rpx] top-[26rpx] size-[177rpx] bg-slate-500/50" />
-          歌
+          <view v-if="stroke > 4" class=" absolute left-[171rpx] top-[39rpx] size-[177rpx] rounded-lg bg-slate-500/20" />
+          化
+        </view>
+        <view class="rounded-md  bg-white/50 p-2 text-7xl text-gray-900">
+          传
+        </view>
+        <view class="rounded-md  bg-white/50 p-2 text-7xl text-gray-900">
+          播
         </view>
       </view>
     </view>
