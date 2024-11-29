@@ -41,6 +41,12 @@ function toCheck() {
     url: '/pages/check/check',
   })
 }
+
+function toVoice() {
+  uni.navigateTo({
+    url: '/pages/voice/voice',
+  })
+}
 </script>
 
 <template>
@@ -66,7 +72,7 @@ function toCheck() {
       </view>
       <text class="i-mdi-arrow-right text-xl" />
     </view>
-    <view class="flex flex-col gap-3 rounded-[30rpx] bg-green-900/50 p-2">
+    <view class="flex flex-col gap-3 rounded-[30rpx] bg-green-900/50 p-2" @tap="toVoice">
       <view class="flex items-center gap-1 text-white">
         <view class="i-mdi-chat-question" /><text>小又</text>
       </view>
