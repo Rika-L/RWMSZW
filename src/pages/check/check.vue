@@ -86,7 +86,11 @@ function touchend() {
       </view>
       <view class="h-px w-full bg-gray-700" />
       <view class="text-base">
-        You're doing a great job! Keep up the excellent work! Your strokes are smooth and confident, showing your clear effort in Chinese character writing. However, there are a few small areas where we can work together to improve. For instance, the stroke order of some Chinese characters requires special attention; the correct horizontal stroke should be from left to right, not from right to left. Additionally, the beginning and end of some strokes need to be more precise to ensure the structure of each character is accurate. Keep practicing, and over time, your grasp of the correct stroke order will improve, and your Chinese character writing skills will definitely advance.
+        &nbsp;&nbsp;&nbsp;&nbsp;You're doing a great job! Keep up the excellent work! Your strokes are smooth and confident, showing your clear effort in Chinese character writing.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;However, there are a few small areas where we can work together to improve.<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;For instance, the stroke order of some Chinese characters requires special attention; the correct horizontal stroke should be from left to right, not from right to left. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Additionally, the beginning and end of some strokes need to be more precise to ensure the structure of each character is accurate. <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;Keep practicing, and over time, your grasp of the correct stroke order will improve, and your Chinese character writing skills will definitely advance.
       </view>
     </view>
   </view>

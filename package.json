@@ -57,6 +57,7 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-4020920240930001",
     "@dcloudio/uni-mp-xhs": "3.0.0-4020920240930001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-4020920240930001",
+    "@iconify-json/game-icons": "^1.2.0",
     "@iconify-json/solar": "^1.2.1",
     "@vue/shared": "3.5.11",
     "pinia": "^2.2.0",
