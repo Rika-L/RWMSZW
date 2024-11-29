@@ -47,6 +47,11 @@ function toVoice() {
     url: '/pages/voice/voice',
   })
 }
+function toAi() {
+  uni.navigateTo({
+    url: '/pages/aiContent/aiContent',
+  })
+}
 </script>
 
 <template>
@@ -85,6 +90,9 @@ function toVoice() {
       <view class="p-px text-right text-xs text-white">
         Try to talk with AI Helper >
       </view>
+    </view>
+    <view class="flex flex-col gap-3 rounded-[30rpx] bg-green-900/50 p-2" @tap="toAi">
+      跳转的界面函数
     </view>
   </view>
   <scroll-view
