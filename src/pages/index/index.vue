@@ -52,11 +52,11 @@ function toVoice() {
 <template>
   <view class="fixed left-0 top-0 -z-10 size-full backdrop-blur" />
   <image src="/src/static/img/bg3.jpg" class="fixed left-0 top-0 -z-20 size-full" />
-  <div class=" relative ml-[125rpx] mt-[100rpx] flex">
+  <div class=" relative ml-[97rpx] mt-[100rpx] flex">
     <input v-model="keyword" type="text" class=" relative top-0 h-[70rpx] w-[430rpx] rounded-md bg-slate-200 pl-2 text-[26rpx] font-bold text-black opacity-75 shadow-inner shadow-[#888888]" placeholder="Please enter the Chinese" bindinput="inputChange" @confirm="filterData">
     <view class=" absolute left-[457rpx] top-0 h-[70rpx] w-[110rpx] rounded-lg bg-inherit" @tap="filterData">
       <div class=" size-full rounded-lg bg-slate-600 opacity-15" />
-      <text class=" absolute left-[10px] top-[19rpx] text-[26rpx] font-semibold">
+      <text class=" absolute left-[6px] top-[18rpx] text-[26rpx] font-semibold">
         Search
       </text>
     </view>
